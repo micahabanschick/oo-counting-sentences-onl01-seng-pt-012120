@@ -17,5 +17,6 @@ class String
   def count_sentences
     self.split(/[.?!]/).delete_if{|elem| elem.match(/w+/) == false}.length 
   end
-  binding.pry
+  #binding.pry
 end
+binding.pry
