@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    arr = self.split(/[.?!]/).delete_if{|elem| elem.include?(/w/)}
+    arr = self.split(/[.?!]/).delete_if{|elem| elem.include?(/w/)}.length 
   end
 end
